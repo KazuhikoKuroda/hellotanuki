@@ -1,5 +1,7 @@
 function doClick(e) {
-    alert($.label.text);
+  var hoge = Alloy.createController("hoge")
+		, hogeview = hoge.getView();
+	hogeview.open();
 }
 
 $.index.open();

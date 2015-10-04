@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="hoge" class="container">
+		<Label id="label" onClick="doClick">hoge</Label>
+	</Window>
+</Alloy>
